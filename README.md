@@ -35,14 +35,16 @@ All required dependencies are listed in `requirements.txt`.
 wav2vec2.0_finetuning_and_ablation/
 │
 ├── src/
-│ ├── lr_ablation.ipynb #Tests different learning rates
-│ ├── hidden_dropout_ablation.ipynb #Tests various dropout probabilities
-│ ├── epoch_ablation.ipynb #Compares training over different epoch counts
-│ └── optimizer_ablation.ipynb # Tests various variants of optimizers
-│ └── wav2vec2.0_model_finetuning.ipynb # Training of base model
-├── requirements.txt # Dependency list for reproducibility
-├── .gitignore 
-└── README.md 
+│   ├── wav2vec2.0_finetuning_and_ablation.ipynb   
+│   ├── learning_rate_ablation.ipynb               
+│   ├── hidden_dropout_ablation.ipynb              
+│   ├── epoch_ablation.ipynb                       
+│   ├── optimizer_ablation.ipynb                   
+│
+├── requirements.txt                             
+├── .gitignore
+└── README.md
+
 
 ## Setup Instructions
 
