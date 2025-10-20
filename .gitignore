@@ -7,7 +7,7 @@ __pycache__/
 *.log
 
 # Virtual environments
-venv/
+asr/
 .env/
 .env.bak/
 
