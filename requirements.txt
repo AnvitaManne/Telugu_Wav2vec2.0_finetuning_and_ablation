@@ -1,0 +1,26 @@
+# Core Deep Learning
+torch==2.4.0+cu118
+torchaudio==2.4.0+cu118
+torchvision==0.19.0+cu118
+--index-url https://download.pytorch.org/whl/cu118
+
+# Transformers / Hugging Face ecosystem
+transformers==4.44.2
+huggingface_hub==0.25.2
+accelerate==0.34.2
+datasets==2.16.1   # stable version that supports audio decoding without torchcodec
+
+# Audio processing
+librosa==0.10.2
+soundfile==0.12.1
+evaluate==0.4.2
+jiwer==3.0.4
+
+# Weights & Biases
+wandb==0.17.6
+
+# Additional requiements
+pandas==2.2.3
+numpy>=1.26.4
+tqdm>=4.66.5
+kaggle==1.6.17
