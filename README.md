@@ -34,6 +34,7 @@ All required dependencies are listed in `requirements.txt`.
 ##  Repository Structure
 wav2vec2.0_finetuning_and_ablation/
 │
+|
 ├── src/
 │   ├── wav2vec2.0_finetuning_and_ablation.ipynb   
 │   ├── learning_rate_ablation.ipynb               
