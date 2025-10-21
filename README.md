@@ -32,20 +32,18 @@ All required dependencies are listed in `requirements.txt`.
 ---
 
 ##  Repository Structure
+
 wav2vec2.0_finetuning_and_ablation/
-│
-|
 ├── src/
-│   ├── wav2vec2.0_finetuning_and_ablation.ipynb   
-│   ├── learning_rate_ablation.ipynb               
-│   ├── hidden_dropout_ablation.ipynb              
-│   ├── epoch_ablation.ipynb                       
-│   ├── optimizer_ablation.ipynb                   
-│
-├── requirements.txt                             
+│   ├── wav2vec2.0_finetuning_and_ablation.ipynb
+│   ├── learning_rate_ablation.ipynb
+│   ├── hidden_dropout_ablation.ipynb
+│   ├── epoch_ablation.ipynb
+│   └── optimizer_ablation.ipynb
+├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 
 ## Setup Instructions
 
